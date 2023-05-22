@@ -1,1 +1,1 @@
-const botao = document.querySelector("escolher");
+const toggleMenu = () => document.body.classList.toggle("open");
