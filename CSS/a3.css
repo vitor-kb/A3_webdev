@@ -14,6 +14,12 @@
     background-repeat: no-repeat;
     background-position: 0% 10%;
   }
+
+  header{
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 100px;
+  }
   
   button {
     border: 0;
@@ -100,7 +106,6 @@
     position: relative;
     color: white;
     font-size: 32px;
-    font-family: "Euclid Circular A";
     padding: 20px 0;
     width: 300px;
     text-decoration: none;
