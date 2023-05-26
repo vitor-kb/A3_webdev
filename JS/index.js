@@ -1,1 +1,1 @@
-const toggleMenu = () => document.body.classList.toggle("open");
+const abrirMenu = () => document.body.classList.toggle("open");
