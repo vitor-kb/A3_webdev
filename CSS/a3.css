@@ -9,7 +9,6 @@
   
   body {
     color: #f9f9f9;
-    background-image: url("../images/lights-favelas-window-photography-wallpaper-preview.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 10%;
@@ -28,6 +27,10 @@
     cursor: pointer;
   }
   
+  h1,h2,h3,h4,h5,h6{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000; 
+  }
   .burger,
   .menu {
     position: fixed;
@@ -86,14 +89,6 @@
   body.open .menu nav {
     opacity: 1;
   }
-  
-  /*.menu nav:hover a {
-    opacity: 0.25;
-  }
-  
-  .menu nav a:hover {
-    opacity: 1;
-  }*/
   
   .menu nav {
     display: flex;
