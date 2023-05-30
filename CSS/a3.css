@@ -27,9 +27,15 @@
     cursor: pointer;
   }
   
-  h1,h2,h3,h4,h5,h6{
+  h1,h2,h4,h5,h6{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000; 
+  }
+
+  p{
+    margin-top: 0.50%;
+    text-align: center;
+    font-size: 110%;
   }
   .burger,
   .menu {
