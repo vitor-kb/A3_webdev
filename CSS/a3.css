@@ -173,5 +173,21 @@
 .text-center {
     text-align: center;
   }
+  .botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }  
 
-  
+  .container {
+    display: grid;
+    place-items: center;
+    height: 75vh;
+  }
