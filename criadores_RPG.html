@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
+    <h1> Criadores </h1>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,32 +15,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
+<style>
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .centered-text {
+        text-align: center;
+    }
+
+    h1 {
+        color: orange;
+        font-size: 64px;
+    }
+    body {
+        background-image: url(images/fundo_criadores.jpg);
+    }
+
+</style>
+
 <body>
-    <header>
-        <h1>Criadores do RPG dos Crias!</h1>
-    </header>
 
-    <!--<img src="images/foto_vitor_k.jpg" alt="Imagem Vitor" style="float: left; width: 10%;">!-->
 
-    <div style="position: relative;">
-         <img src="images/RaulMartinsFoto.jpeg" alt="Imagem Raul" style="position: absolute; top: 115px; left: 100; width: 10%;">
-    </div>
+    <img src="images/VitorKFoto.jpg" alt="Imagem Vitao" class="image">
+    <img src="images/RaulMartinsFoto.jpeg" alt="Imagem Raul" class="image">
+    <img src="images/Brazola.png" alt="Imagem Brazola" class="image">
+    <img src="images/Davi.png" alt="Imagem Davi" class="image">
+    <img src="images/Biel.jpg" alt="Imagem Biel" class="image">
 
-    <div style="position: relative;">
-        <img src="images/VitorKFoto.jpg" alt="Imagem Vitor" style="position: absolute; top: 115px; float: 50; width: 10%;">
-    </div>
+    <div class="centered-text">
+        <h1> Criadores </h1>
+        <p> testeee</p>
 
-    <!--<img src="images/RaulMartinsFoto.jpeg" alt="Imagem Raul" style="display: block; margin: 0 auto; width: 10%;">!-->
-    
-    <style>
-        h1 {
-            color: orange;
-            font-size: 64px;
-        }
-        body {
-            background-image: url(images/fundo_criadores.jpg);
-        }
-    </style>
 
     <button class="burger" onclick="toggleMenu()"></button>
 
@@ -46,8 +65,6 @@
             <a href="index.html" style="animation-delay: 0.2s">Página Inicial</a>
         </nav> 
     </div>
-    <p>Raul</p>
-    <img href="./images/RaulMartinsFoto.jpeg"> 
     <footer>
         <p class="text-center">Copyright &copy; RPG DOS CRIAS 2023</p>
     </footer>
