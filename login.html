@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login de Cria</title>
+  <style>
+    body {
+        background-color: rgb(27, 27, 27);
+    
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ff3131;
+      border-radius: 5px;
+    }
+
+    .container h2 {
+        color:#ff3131
+      text-align: center;
+    }
+
+    .container input[type="text"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    .container input[type="submit"] {
+      background-color: #ff3131;
+      color: rgb#ff3131;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Usuário" required>
+      <input type="password" id="password" placeholder="Senha" required>
+      <input type="submit" value="Entrar">
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Impede o envio do formulário
+
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Verifica as credenciais
+      if (username === "admin" && password === "12345") {
+        alert("Login realizado com sucesso!");
+        // Redirecionar para outra página após o login
+        window.location.href = "dashboard.html";
+      } else {
+        alert("Usuário ou senha incorretos. Tente novamente.");
+      }
+    });
+  </script>
+</body>
+</html>
