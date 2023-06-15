@@ -15,7 +15,7 @@
 
 body {
     height: calc(100vh - 80px);
-    background: url(../images/criafuzil.png);
+    background: url(../images/criaescuro.png);
     background-size: cover;
 }
 
@@ -24,7 +24,6 @@ h1 {
     font-size: 35px;
     margin: 80px 0 100px 0;
     color: #FFF;
-    text-shadow: 0 0 3px #000;
 }
 
 .aligncenter {
