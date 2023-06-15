@@ -1,27 +1,28 @@
 //Comandos do banco
-window.addEventListener('load',carrega);
+window.addEventListener('load', carrega);
 
-function carrega(){
+function carrega() {
     document.getElementById('field-name').addEventListener('blur', leave);
     document.getElementById('field-pass').addEventListener('blur', leave);
-    document.getElementById('field-mail').addEventListener('blur', leave);   
+    document.getElementById('field-mail').addEventListener('blur', leave);
 }
-function leave(){
-    if(this.value != ''){
+
+function leave() {
+    if (this.value != '') {
         this.offsetParent.className += " ativo";
-    }else{
+    } else {
         this.offsetParent.className = 'box';
     }
 }
 
-function inputSHOW(_show){
-    if(_show){
+function inputSHOW(_show) {
+    if (_show) {
         document.getElementById('field-name').offsetParent.className += " ativo";
         document.getElementById('field-pass').offsetParent.className += " ativo";
         document.getElementById('field-mail').offsetParent.className += " ativo";
         document.getElementById('btn-deletar').style.display = 'block';
-    }else{
-        
+    } else {
+
         document.getElementById('field-name').offsetParent.className = 'box';
         document.getElementById('field-pass').offsetParent.className = 'box';
         document.getElementById('field-mail').offsetParent.className = 'box';
@@ -29,8 +30,8 @@ function inputSHOW(_show){
     }
 }
 
-function limpaCampo(){
-    
+function limpaCampo() {
+
     document.getElementById('field-id').value = '';
     document.getElementById('field-name').value = '';
     document.getElementById('field-pass').value = '';
