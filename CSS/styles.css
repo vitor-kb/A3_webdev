@@ -3,7 +3,7 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #ff3131;
     --cor-de-fundo: #00030c;
-    --fonte-principal:'Inter';
+    --fonte-principal: 'Inter';
     --botao-azul-efeito: #579ff7;
 }
 
@@ -20,7 +20,7 @@ body {
     padding: 0;
 }
 
-.principal{
+.principal {
     /* background-image: url("images/favelared2.png"); */
     background-image: url("../images/favelafundo.png");
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body {
 }
 
 .container__aviso {
-    font-size:12px;
+    font-size: 12px;
     color: var(--cinza-secundario);
 }
 
@@ -64,11 +64,11 @@ body {
     margin: 1em 0 2em 0;
 }
 
-.container__caixa{
+.container__caixa {
     margin: 0 6em;
 }
 
-.secudanrio__imagem {
+.secundario__imagem {
     width: 80%;
 }
 
@@ -88,7 +88,7 @@ body {
     color: var(--cinza-secundario);
 }
 
-.secundario__botao{
+.secundario__botao {
     display: inline-block;
     margin-top: 1em;
 }
@@ -112,7 +112,6 @@ body {
 .desenvolvedores__titulo {
     font-size: 48px;
     color: var(--branco-principal);
-
 }
 
 .lista__item {
@@ -128,7 +127,6 @@ body {
 
 .rodape__logo {
     margin: 5em 0.5em;
-    em;
 }
 
 .rodape__lista {
@@ -136,10 +134,9 @@ body {
     justify-content: center;
     list-style: none;
     margin: 1em;
-
 }
 
-.lista__link a{
+.lista__link a {
     color: var(--branco-principal);
     margin-left: 1em;
     text-decoration: none;
@@ -162,7 +159,7 @@ body {
 }
 
 .lista__link a:active {
-    color:plum;
+    color: plum;
 }
 
 .container__botao:hover {
@@ -170,39 +167,38 @@ body {
     /* color: var(--cor-de-fundo); */
 }
 
-
-nav{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding-top: 10px;
-padding-left: 10%;
-padding-right: 10%;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
-nav ul li a{
+nav ul li a {
     color: var(--fonte-principal);
     text-decoration: none;
 }
 
-nav ul li a:hover{
-    color:#ff3131
+nav ul li a:hover {
+    color: #ff3131
 }
 
-button{
-    border:none;
+button {
+    border: none;
     background: #ff3131;
-    padding:12px 30px;
+    padding: 12px 30px;
     border: radius 30px;
-    color:white;
+    color: white;
 }
 
-.imagem__nav{
+.imagem__nav {
     height: 70px;
 }
