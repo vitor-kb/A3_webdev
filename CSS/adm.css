@@ -1,7 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Bitter', serif;
+    font-family: 'Inter';
     font-size: inherit;
     color: inherit;
     box-sizing: border-box;
@@ -9,32 +9,33 @@
     border: none;
 }
 
-*:focus{
+*:focus {
     outline: none;
 }
 
-body{
-    height: calc(100vh - 80px)  ;
+body {
+    height: calc(100vh - 80px);
     background: url(../images/criafuzil.png);
     background-size: cover;
 }
 
-h1{
-  text-align: center;
-  font-size: 35px;
-  margin: 80px 0 100px 0;
-  color: #FFF;
-  text-shadow: 0 0 3px #000;
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin: 80px 0 100px 0;
+    color: #FFF;
+    text-shadow: 0 0 3px #000;
 }
 
-.aligncenter{
-    margin: 0 auto; 
+.aligncenter {
+    margin: 0 auto;
     width: 900px;
 }
 
+
 /*TABLE*/
 
-table{
+table {
     font-size: 20px;
     color: #FFF;
     border: 20px solid #F26522;
@@ -43,11 +44,12 @@ table{
     border-collapse: collapse;
 }
 
-td:first-of-type{
+td:first-of-type {
     cursor: pointer;
 }
 
-td,th{
+td,
+th {
     padding: 5px 10px;
     font-weight: normal;
     width: 200px;
@@ -55,13 +57,14 @@ td,th{
     border-right: 3px solid #F26522;
 }
 
-tr:nth-of-type(odd) td{
+tr:nth-of-type(odd) td {
     background: #ED6125;
 }
 
+
 /*FORM*/
 
-.form{
+.form {
     float: left;
     width: 300px;
     padding: 20px;
@@ -71,7 +74,7 @@ tr:nth-of-type(odd) td{
     background: #F26522;
 }
 
-.box{
+.box {
     position: relative;
     overflow: hidden;
     height: 50px;
@@ -79,7 +82,7 @@ tr:nth-of-type(odd) td{
     background: #EF4D02;
 }
 
-.box > input{
+.box>input {
     position: absolute;
     left: 0;
     top: 0;
@@ -88,7 +91,7 @@ tr:nth-of-type(odd) td{
     transform: translateX(-100%);
 }
 
-.box label{
+.box label {
     display: inline-block;
     width: 100%;
     padding: 13px;
@@ -96,21 +99,30 @@ tr:nth-of-type(odd) td{
     color: #FFF;
 }
 
-.box.ativo input,input:focus{  transform: translateX(0);    }
-
-.box.ativo label, input:focus ~ label{transform: translateX(60%);}
-
-.per{perspective: 800px; }
-
-a.button:active{
-    transform: rotateX(0deg); 
+.box.ativo input,
+input:focus {
+    transform: translateX(0);
 }
-a.button{
+
+.box.ativo label,
+input:focus~label {
+    transform: translateX(60%);
+}
+
+.per {
+    perspective: 800px;
+}
+
+a.button:active {
+    transform: rotateX(0deg);
+}
+
+a.button {
     position: relative;
     display: block;
     padding: 13px;
     margin-bottom: 20px;
-    transform: rotateX(15deg); 
+    transform: rotateX(15deg);
     -webkit-transform: rotateX(15deg);
     transform-style: preserve-3d;
     text-align: center;
@@ -119,7 +131,7 @@ a.button{
     background: #EF4D02;
 }
 
-a.button:after{
+a.button:after {
     position: absolute;
     left: 0;
     top: 100%;

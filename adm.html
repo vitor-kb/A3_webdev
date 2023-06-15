@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="./CSS/adm.css" />
-        <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
-        <link rel="icon" type="image/png" href="../A3_webdev/images/icon.png"/>
-        <title>Banco</title>
-    </head>
 
-    <body>
-        <h1>Nome dos Compradores</h1>
-        <div class="aligncenter">
-            <form class="form">
-                <input type="hidden" id="field-id" value="" />
-                <div class="box">
-                    <input type="text" id="field-name"/>
-                    <label for="field-name">Nome</label>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/adm.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Inter:wght@400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="../A3_webdev/images/icon.png" />
+    <title>Banco</title>
+</head>
 
-                <div class="box">
-                    <input type="text" id="field-pass"/>
-                    <label for="field-pass">Senha</label>
-                </div>
+<body>
+    <h1>Nome dos Compradores</h1>
+    <div class="aligncenter">
+        <form class="form">
+            <input type="hidden" id="field-id" value="" />
+            <div class="box">
+                <input type="text" id="field-name" />
+                <label for="field-name">Nome</label>
+            </div>
 
-                <div class="box">
-                    <input type="text" id="field-mail"/>
-                    <label for="field-mail">E-mail</label>
-                </div>
-                <div class="per"><a id="btn-salvar" class="button" >SALVAR</a></div>
-                <div class="per"><a id="btn-deletar" class="button" >DELETAR</a></div>
-            </form>
-            <table id="table-register">
-                <thead>
-                    <th>Nome</th>
-                    <th>Senha</th>
-                    <th>Email</th>
-                </thead>
-                <tbody id="tbody-register">
-                
-                </tbody>
-            </table>
-        </div>
-        <script src="./JS/index.js"></script>
-        <script src="./JS/banco.js"></script>
-    </body>
+            <div class="box">
+                <input type="text" id="field-pass" />
+                <label for="field-pass">Senha</label>
+            </div>
+
+            <div class="box">
+                <input type="text" id="field-mail" />
+                <label for="field-mail">E-mail</label>
+            </div>
+            <div class="per"><a id="btn-salvar" class="button">SALVAR</a></div>
+            <div class="per"><a id="btn-deletar" class="button">DELETAR</a></div>
+        </form>
+        <table id="table-register">
+            <thead>
+                <th>Nome</th>
+                <th>Senha</th>
+                <th>Email</th>
+            </thead>
+            <tbody id="tbody-register">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="./JS/index.js"></script>
+    <script src="./JS/banco.js"></script>
+</body>
 
 </html>
